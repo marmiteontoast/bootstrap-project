@@ -29,14 +29,14 @@
         <nav class="navbar navbar-dark navbar-expand-sm">
             <a href="/" class="navbar-brand">Whiskey Drop</a>
 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Togglenavigation">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class-="nav-links" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class-="nav-links" href="about">About</a></li>
+                    <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             whiskeys</a>
@@ -49,7 +49,7 @@
                         </div>
                     </li>
 
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class-="nav-links" href="/login">Sign In / Sign Up</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class-="nav-link" href="/login">Sign In / Sign Up</a></li>
                 </ul>
             </div>
             <div class="d-none d-md-block">
@@ -71,7 +71,7 @@
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>First one is free!</mark></strong></p>
                     <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                    <p class="text-muted"><small>You must be over 18 to sign up to our sevice. Please, drink responsibly.</small></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
                 </section>
             </div>
         </div>
@@ -89,10 +89,10 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 col-md-6" >
+                    <div class="col-12 col-md-6">
                         <div class="media">
                             <div class="d-none d-sm-block">
-                                <img src="images/girl-image.png" class="rounded-circle mr-3" height="100" width="100">
+                                <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100>
                             </div>
                             <div class="media-body">
                                 <blockquote class="blockquote">
@@ -158,6 +158,33 @@
             <!-- /.features -->
         </div>
     </div>
+
+        <!-- Footer -->
+    <footer class="container-wrapper">
+        <div class="container quotes-container content-container">
+        <section class="footer">
+            <div class="row">
+            <div class="col-12 page-header mb-4">
+                <h2 class="text-uppercase">Stay in touch:</h2>
+                <hr class="block-divider block-divider--short">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-6">
+            <h3>Social</h3>
+            <p>Keep up to date with all our latest offers</p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+            </div>
+            <div class="col-12 col-md-6">
+            <h2>Subscribe!</h2>
+            <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
+            <!-- Mailchimp signup form here -->
+            </div>
+        </div>
+        </section>
+    </div>
+    </footer>
+    <!-- /.footer -->
     
     <!-- modal -->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
